@@ -73,3 +73,98 @@ header {
  nav ul li li a {
      padding: 0 15px;
  }
+ /* =============== HERO SECTION ==================== */
+ 
+ .hero-section {
+     background-image: url(https://images.unsplash.com/photo-1499195333224-3ce974eecb47?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2cf549433129d4227d1879347b9e78ce&auto=format&fit=crop&w=648&q=80);
+     /* background-image: url(../../assets/images/sharon-mccutcheon-528652-unsplash-small.jpg); */
+     background-size: cover;
+     background-position: center;
+     height: 300px;
+     width: 100%;
+     overflow: hidden;
+     position: relative;
+ }
+
+ .slogan {
+     background-color: rgba(0, 0, 0, 0.5);
+     width: 80%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translateX(-50%) translateY(-50%);
+ }
+
+ .slogan h2 {
+     text-transform: uppercase;
+     color: #fff;
+     padding: 10px 20px;
+     text-align: center;
+ }
+
+ .slogan h2 span {
+     color: #e00986;
+ }
+
+ .yellow-text {
+     font-size: 40px;
+     color: #fbb619!important;
+ }
+
+ /* ==========ARTICLE - product desc. (.about-section)========= */
+
+ .container {
+     max-width: 1000px;
+     margin: 0 auto;
+     padding: 10px 20px; 
+ }
+
+ .about-section {
+     width: 100%;
+     background-color: #f29cd9;
+ }
+
+ .about-section h2 {
+     margin: 0;
+     font-size: 30px;
+     padding: 20px;
+ }
+
+ .about-section img {
+     margin: 10px auto 30px;
+     display: block;
+ }
+
+ /* ================== GALLERY ================= */
+
+ .gallery-section {
+     width: 100%;
+     margin: 0 auto;
+ }
+
+ .gallery-section h2 {
+     margin: 0;
+     padding: 10px;
+     text-align: center;
+     color: #66b8c4;
+ }
+ 
+ .gallery-image {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+ }
+
+ .gallery-image img {
+     display: flex;
+     width: 300px;
+     height: 200px;
+     object-fit: cover;
+     margin: 10px;
+     border: 5px solid white;
+     box-shadow: 4px 4px 24px 1px rgba(224,9,134,0.75);
+    }
+ 
+ .gallery-image img:hover {
+     transform: scale(1.15);
+}
