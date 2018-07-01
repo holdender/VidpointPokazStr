@@ -134,6 +134,13 @@ header {
  .about-section img {
      margin: 10px auto 30px;
      display: block;
+     border-radius: 50%;
+     box-shadow: 0px 0px 18px 2px rgba(255, 255, 0, 0.75);
+     transition-duration: 1s;
+ }
+ .about-section img:hover{
+         transform: rotate(10deg);
+         transition-duration: 1s;
  }
 
  /* ================== GALLERY ================= */
