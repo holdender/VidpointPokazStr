@@ -243,3 +243,53 @@ footer a {
     text-decoration: none;
     color: #e00986;
 }
+
+/* ==================== CONTACT FORM ====================== */
+.contact-section {
+    max-width: 600px;
+    margin: 40px auto;
+    -webkit-box-shadow: 4px 4px 24px 1px rgba(224,9,134,0.75);
+    -moz-box-shadow: 4px 4px 24px 1px rgba(224,9,134,0.75);
+    box-shadow: 4px 4px 24px 1px rgba(224,9,134,0.75);
+}
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    padding: 15px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 0px auto;
+    padding: 5px;
+    height: 40px;
+    border: 1px solid #66b8c4;
+}
+
+textarea {
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    height: 100px;
+    width: 400px;
+    border: 1px solid #66b8c4;
+}
+
+input[type="submit"], [type="reset"] {
+    margin: 30px auto;
+    max-width: 200px;
+    height: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Kalam;
+    background: #f29cd9;
+    border: 1px solid #e00986;
+}
