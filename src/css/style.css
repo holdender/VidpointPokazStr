@@ -114,6 +114,31 @@ header {
 
  /* ================= SLICK SLIDER SECTION ================== */
 /* There is the it's own style.css file of slider in the slick/slick folder */
+.slider-section {
+    background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9);
+}
+
+.slider-section img {
+    object-fit: cover;
+}
+
+.slick-slider {
+    /* margin: 0px auto; */
+    padding: 40px 60px;
+}
+
+.slick-slider img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 300px;
+    height: 200px;
+}
+
+.slick-dots {
+    bottom: 0px;
+}
+
+
  /* ==========ARTICLE - product desc. (.about-section)========= */
 
  .container {
