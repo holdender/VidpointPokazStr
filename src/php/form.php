@@ -9,3 +9,5 @@
     mail($to, $subject, $message, $headers);
     echo '<h2>Dziękujemy za wysłanie wiadomości</h2>';
 ?>
+
+
