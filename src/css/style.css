@@ -231,18 +231,6 @@ header {
     font-size: 18px
 }
 
-/* =================== FOOTER ====================== */
-footer {
-    background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9);
-    text-align: center;
-    padding: 10px;
-
-}
-
-footer a {
-    text-decoration: none;
-    color: #e00986;
-}
 
 /* ==================== CONTACT FORM ====================== */
 .contact-section {
@@ -292,4 +280,16 @@ input[type="submit"], [type="reset"] {
     font-family: Kalam;
     background: #f29cd9;
     border: 1px solid #e00986;
+}
+
+/* =================== FOOTER ====================== */
+footer {
+    background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9);
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #e00986;
 }
