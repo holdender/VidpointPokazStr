@@ -1,8 +1,9 @@
 
 $('.responsive').slick({
     dots: true,
-    infinite: false,
-    speed: 300,
+    arrows: true,
+    infinite: true,
+    speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
     responsive: [
@@ -12,7 +13,8 @@ $('.responsive').slick({
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
+          dots: true,
+          arrows: true
         }
       },
       {
